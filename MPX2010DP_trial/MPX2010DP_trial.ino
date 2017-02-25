@@ -12,7 +12,8 @@
 int sensorValue      = 0;
 int constrainedValue = 0;
 int tankLevel        = 0;
-#define TANK_SENSOR 0
+int TANK_SENSOR;
+
 
 #define TANK_EMPTY 0
 #define TANK_FULL  1023
@@ -27,7 +28,7 @@ void setup() {
  * in the object itself. Nothing much happens
  */
 void loop(){
-   sensorValue = analogRead( TANK_SENSOR );
+   sensorValue = analogRead(A0);
   constrainedValue = constrain( sensorValue, TANK_EMPTY, TANK_FULL );
   tankLevel = map( constrainedValue, TANK_EMPTY, TANK_FULL, 0, 100 );
   Serial.print ("Tank Value");
