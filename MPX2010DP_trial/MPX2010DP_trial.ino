@@ -32,5 +32,5 @@ void loop(){
   constrainedValue = constrain( sensorValue, TANK_EMPTY, TANK_FULL );
   tankLevel = map( constrainedValue, TANK_EMPTY, TANK_FULL, 0, 100 );
   Serial.print ("Tank Value");
-  Serial.println (tankLevel);
+  Serial.println (sensorValue);
 }
