@@ -56,7 +56,7 @@ connecting an Arduino (as ISP) to an ATtiny.
 
 using the TinyProgrammer
 Programming the ATtiny
-
+BEFORE YOU PROGRAM THE ATtiny YOU NEED TO UPLOAD THE ARDUINO ISP SKETCH TO THE BOARD IT IS IN THE EXAMPLES FOLDER
 Next, we can use the ISP to upload a program to the ATtiny:
 
     Open the Blink sketch from the examples menu.

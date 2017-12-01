@@ -1,0 +1,9 @@
+SERIAL ATTINY85
+*https://www.hackster.io/porrey/easy-serial-on-the-attiny-2676e6*
+http://projectsfromtech.blogspot.com/2013/06/serial-communication-on-attiny85-with.html
+http://www.instructables.com/id/Easy-ATTiny-Serial-Communication-with-Tiny-AVR-Pro/
+http://projectsfromtech.blogspot.com/2013/04/attiy85-programming-adapter.html
+https://www.arduino.cc/en/Reference/SoftwareSerial
+http://www.instructables.com/id/ATtiny85-ATtiny84-Analog-Pins-Serial-Communication/
+* WIN10 Driver for cable I have http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=225&pcid=41
+                                https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/software-installation-windows
