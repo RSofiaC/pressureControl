@@ -1,9 +1,14 @@
-[![travis build](https://img.shields.io/travis/cvalenzuela/Mappa.svg?style=flat-square)](https://travis-ci.org/cvalenzuela/Mappa)
-[![codecov coverage](https://img.shields.io/codecov/c/github/cvalenzuela/Mappa.svg?style=flat-square)](https://codecov.io/github/cvalenzuela/Mappa)
-![version](https://img.shields.io/npm/v/mappa-mundi.svg?style=flat-square)
+# Uno & Micro
 
-Mappa.js is a Javascript library that allows you to overlay a `<canvas>` on top of a tile map. It also provides a set of tools for working with static maps, interactive tile maps and geo-data among other tools useful when building geolocation-based visual representations.
+## Setup
 
-Mappa was originally designed for [p5.js](https://github.com/processing/p5.js), but it can be used with plain Javascript or with other libraries that use the canvas element as the render object.
+## Test sketch
 
-## Reference
+## Adapt your sketch
+
+## Serial communication posibilities
+
+
+- Calibration: basic sketch & schematics to get analog read values from pressure sensor into LED's
+- MPX2010DP: sketch & schematics to use the MPX2010DP for water pressure level tracking
+- Processing Serial: Arduino & Processing sketches & schematics to control processing sketch
